@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "repeat",
+  "description": "repeat",
+  "version": "1.0",
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+     "data/sde_json.txt"
+ ],
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "browser_action": {
+      "default_icon": "flash.png",
+      "default_popup": "options.html"
+  }
+}
