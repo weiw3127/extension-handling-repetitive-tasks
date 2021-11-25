@@ -32,5 +32,5 @@ const getURLtest = () => {
     The existence of setTimeout is important because many pages may be involved in the workflow.A pause between each action can lighten the load on the browser.
     
 ## To update the unpacked extensions:
-Click on the extension's reload button.
+Click on the extension's reload button. <br/><br/>
  <img width="425" alt="update" src="https://user-images.githubusercontent.com/19240127/139778521-6e2ffddd-9d69-4de7-ad34-eace16e76633.png">
