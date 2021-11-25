@@ -1,6 +1,8 @@
 # extension_repeat
 Outsourcing repetitive tasks to machines, then can humans perform creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
 
+![This is an image](repeat.gif)
+
 ## Scenario
 I came up with this extension to help me with my work. One of my daily tasks is to verify that our clients' websites conform to certain HTML formats. The scope of this task is enormous, but the step is simple. At least too simple for me to invest that much time. So I decided to outsource this work.
 
