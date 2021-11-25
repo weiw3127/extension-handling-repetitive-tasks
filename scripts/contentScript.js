@@ -1,21 +1,16 @@
 console.log('open each page')
 
-const getUrl = (xpath) => {
-  const allResult = document.evaluate(xpath, document, null, XPathResult.ANY_TYPE, null);
-  let resultList = allResult.iterateNext();
+const getURLtest = () => {
+  const allResult = document.querySelectorAll('#video-title-link');
   let output = [];
-  while (resultList) {
-    result = 'https://www.youtube.com' + resultList.textContent;
-    output.push(result);
-    resultList = allResult.iterateNext();
+  for(let i=0; i<3; i++){
+    output.push(allResult[i].href)
   }
-  return output
+  return output;
 }
 
-const vLinkXpath = 'descendant::a[@id="video-title-link"]/@href';
-const allTheLink = getUrl(vLinkXpath);
-const topThree = allTheLink.slice(0, 3);
+const allTheLink = getURLtest();
 
-console.log(topThree);
+console.log(allTheLink);
 
-chrome.runtime.sendMessage({action: 'openLink', url: topThree});
+chrome.runtime.sendMessage({action: 'openLink', url: allTheLink});
