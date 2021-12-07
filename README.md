@@ -1,5 +1,5 @@
 # extension_repeat
-Outsourcing repetitive tasks to machines, then can humans perform creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
+Outsourcing repetitive tasks to machines, we can spend time on creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
 
 ![This is an image](repeat.gif)
 
