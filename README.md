@@ -1,13 +1,13 @@
 # extension_repeat
-Outsourcing repetitive tasks to machines, we can spend time on creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
+Outsourcing repetitive tasks to machines, then we can spend time on creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
 
 ![This is an image](repeat.gif)
 
 ## Scenario
-I came up with this extension to help me with my work. One of my daily tasks is to verify that our clients' websites conform to certain HTML formats. The scope of this task is enormous, but the step is simple. At least too simple for me to invest that much time. So I decided to outsource this work.
+I came up with this extension to help me with my work. One of my daily tasks is to check if our clients' websites are compliant with certain HTML formats. The scope of this task is enormous, but everything in it is simple. At least too simple for me to spend that much time on. So I decided to outsource this work.
 
 ## How this work
-The extension is simple. It opens pages with different tabs and then runs an HTML check.
+The repetitive work we have here is opening pages and runs an HTML check.
 
 Let us take YouTube as an example. 
 - Open first 3 pages in the new tabs using the 'getURLtest' function in contentScript.js.
