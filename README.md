@@ -1,4 +1,4 @@
-# extension_handling_repetitive_tasks
+# extension-handling-repetitive-tasks
 Outsourcing repetitive tasks to machines, then we can spend time on creativity and innovation. This repository shows how browser extensions can take over certain repetitive tasks and free our minds from the tedious routine.
 
 ![This is an image](repeat.gif)
